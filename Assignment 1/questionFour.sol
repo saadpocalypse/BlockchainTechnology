@@ -1,10 +1,4 @@
 pragma solidity ^0.5.0;
-/*
-Ahmad Saad
-231461463
-Solidity Assignment 1
-Question 4
-*/
 
 contract questionFour{
     uint256 public calcSum;
