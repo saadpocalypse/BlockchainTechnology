@@ -42,7 +42,7 @@ Mention at least 3 units of ETH.
 <br>
 
 ### Question 3
-Describe wrap arounds in integers with example.
+Describe wrap around in integers with example.
 
 <br>
 
