@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract labOne {
+contract activityOne {
     uint256 length;
     uint256 width;
     uint256 public Area;
