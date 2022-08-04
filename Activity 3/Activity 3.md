@@ -12,4 +12,6 @@ You need to create 3 separate functions for the following actions:
 3. Adding values through mapping (you will have to create mappings of type uint
 to Person).
 
+<hr>
+
 Note: Uint in Function 3 can be CNIC number (without hyphens).
