@@ -1,3 +1,3 @@
 # BlockchainTechnology
 
-This repository contains all the work done in my Blockchain Technology course (CSCS367) course.
+This repository contains all the work done in my Blockchain Technology (CSCS367) course.
