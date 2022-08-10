@@ -1,6 +1,5 @@
 pragma solidity ^0.5.0;
 // Ahmad Saad, 231461463, Assignment 2
-// 0xD48d8EA5A1CDd1570e08713cfb736ec358E63E70
 
 contract questionOne{
 
