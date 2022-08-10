@@ -24,8 +24,7 @@ Create a smart contract that allows you to store data of multiple instructors, a
 
 ### Instructions:
 1. You are required to store the details of multiple instructs in blockchain. You must use the following information about the instructor: <br>
-
-First_name, Last_name, Office_number, Phone_number, and domain(ex Computer Science, Mathematics, Physics) with the use of Struct, and Mapping.
+First_name, Last_name, Office_number, Phone_number, and domain(ex Computer Science, Mathematics, Physics) with the            use of Struct, and Mapping.
 
 2. The instructor should also have a predefined status of “Active/non-active”.
 
@@ -40,3 +39,23 @@ First_name, Last_name, Office_number, Phone_number, and domain(ex Computer Scien
 7. Create a getter function that returns the number of instructor. However, only owner should be able to do that.
 
 8. Create a function that will return the addresses of all the instructors. However, if someone other than the owner calls the function, the smart contract must be destroyed. Otherwise, it should return the address.
+
+
+## Short Questions
+Solve these 2 questions in one separate file.
+
+### Short Question 1
+Write a function that counts the number of vowels in the string “adieu ouija louie”. If the string contains any upper case vowels, pause the smart contract. If not, return the total number of vowels in the string.
+
+
+### Short Question 2
+Write a function that calculates the electricity bill (accept number of units from user) according to the following criteria:
+
+
+| Units      | Charge |
+| ----------- | ----------- |
+| First 100 units   | No charge |
+| Next 100 units   | 5 dollars per unit |
+| After 200 units   | 10 dollars per unit |
+
+Then, return the total amount.
