@@ -1,6 +1,5 @@
 pragma solidity 0.6.6;
 
-
 contract questionTwo{
 	mapping(address => uint) public tokenBalance;
 	event TokenSent(address _from, address _to, uint _amount);
