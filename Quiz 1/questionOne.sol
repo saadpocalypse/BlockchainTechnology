@@ -1,7 +1,5 @@
 pragma solidity ^0.5.0;
 
-pragma solidity ^0.5.0;
-
 contract questionOne{
 
     uint empoyeeCount;
