@@ -19,7 +19,7 @@ function makeFriendsRich() public{
 function sendToken(address _to, uint _amount) public returns (bool) {
     tokenBalance[msg.sender] -= _amount;
     tokenBalance[_to] += _amount;
-    emit TokenSent(msg.sender, _to, _amount);
+    emit TokenSent(msg.sender, _to, _amount){
 	return true;
     }
 }
